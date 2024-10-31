@@ -1,21 +1,19 @@
 apps=(
-	arduino
+	#arduino
 	clipy # Clipboard manager https://github.com/Clipy/Clipy
-	deepl
-	discord
+	#deepl # Translate faster
+	#discord
 	docker
-	firefox
-	google-chrome
-	rectangle # Window util
-	slack
-	spotify
+	#firefox
+	#google-chrome
+	#slack
 	visual-studio-code
 	vlc
 	wez/wezterm/wezterm # Terminal https://wezfurlong.org/wezterm
 )
 
 mas_apps=(
-	"937984704"  # Amphetamine
+	"937984704"  # Amphetamine, best keep-awake app
 	"1444383602" # Good Notes 5
 	"768053424"  # Gappling (svg viewer)
 )

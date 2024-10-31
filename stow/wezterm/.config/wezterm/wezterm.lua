@@ -448,7 +448,7 @@ local config = {
   background = {
     -- {
     --   source = {
-    --     File = '/Users/bmayo/.dotfiles/background/goya.jpg',
+    --     File = '~/.dotfiles/background/goya.jpg',
     --   },
     --   width = 'Cover',
     --   height = 'Cover',
@@ -509,7 +509,7 @@ local config = {
   send_composed_key_when_left_alt_is_pressed = false,
   set_environment_variables = {
     EDITOR = 'nvim',
-    PATH = '/opt/homebrew/bin:/home/bmayo/.go/current/bin:' .. os.getenv('PATH'),
+    PATH = '/opt/homebrew/bin:' .. os.getenv( "HOME" ) .. '/.go/current/bin:' .. os.getenv('PATH'),
   },
   show_new_tab_button_in_tab_bar = false,
   show_close_tab_button_in_tabs = false,

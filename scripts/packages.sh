@@ -1,3 +1,4 @@
+# TODO: we should use a Brewfile
 taps=(
    homebrew/cask
    homebrew/cask-fonts
@@ -59,6 +60,8 @@ packages=(
    ## Pinentry for GPG on Mac
    ##pinentry-mac
    #postgresql
+
+   p7zip
 
    # modern `ps` in rust
    procs      # https://github.com/dalance/procs/
