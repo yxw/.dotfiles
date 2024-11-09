@@ -1,0 +1,76 @@
+# Taps - external repositories
+tap "homebrew/cask-fonts"
+tap "xo/xo"
+
+# Update old macOS cli utils
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "bash"
+brew "bash-completion@2"
+brew "wget"
+brew "vim"
+brew "grep"
+brew "openssh"
+brew "git"
+brew "lua"
+brew "p7zip"
+brew "tree"
+brew "gnupg"
+
+# Brew Formulas
+brew "bat"          # https://github.com/sharkdp/bat
+brew "bandwhich"    # https://github.com/imsnif/bandwhich
+brew "bottom"       # https://github.com/ClementTsang/bottom
+brew "cmake"
+brew "ctags"
+brew "curl"
+# one tool to rule them all: 
+# comparable to jq/yq, but supports JSON, YAML, TOML, XML and CSV with zero runtime dependencies.
+brew "dasel"        # https://github.com/TomWright/dasel
+# `du` in rust, more intuitive
+brew "dust"         # https://github.com/bootandy/dust
+# modern `ls`
+brew "eza"          # https://github.com/eza-community/eza
+brew "fd"           # https://github.com/sharkdp/fd
+brew "fzf"          # https://github.com/junegunn/fzf
+# syntax-highlighting pager for git, diff, grep
+brew "gettext"       # https://github.com/dandavison/delta
+brew "git-delta"
+brew "gpg"
+brew "graphviz"     # https://graphviz.org/
+# modern CLI HTTP client for API
+brew "httpie"       # https://github.com/httpie/httpie
+brew "imagemagick"  # https://github.com/PaulJuliusMartinez/jless
+brew "jless"
+brew "jq"
+brew "hyperfine"    # https://github.com/sharkdp/hyperfine
+brew "lf"           # https://github.com/gokcehan/lf - CLI file manager
+brew "libpq"        # https://lynx.invisible-island.net/ - the text web browser
+brew "lynx"
+brew "mas"          # https://github.com/mas-cli/mas - Mac App Store CLI
+brew "nmap"
+brew "openssl"
+brew "p7zip"
+brew "procs"        # https://github.com/dalance/procs/ - modern `ps` in rust
+brew "ripgrep"      # https://github.com/BurntSushi/ripgrep - modern `grep` in rust
+brew "sd"           # https://github.com/chmln/sd - modern `sed`
+brew "shellcheck"   # https://github.com/koalaman/shellcheck - shell script check tool
+brew "stow"
+brew "stylua"       # https://github.com/JohnnyMorganz/StyLua - Lua code formatter
+brew "telnet"
+brew "usql"         # https://github.com/xo/usql - universal cli for sql databases
+brew "websocat"     # https://github.com/vi/websocat
+brew "zsh"
+brew "zinit"        # https://github.com/zdharma-continuum/zinit - zsh plugin manager
+brew "zoxide"       # https://github.com/ajeetdsouza/zoxide - better `cd`
+
+# Casks - macOS app or large binary files
+cask "clipy"  # Clipboard extension app
+cask "vlc"
+
+## Mac App Store Apps
+brew "mas"
+mas "937984704" # Amphetamine
+mas "1444383602" # Good Notes 5
+mas "768053424"  # Gappling (SVG viewer)

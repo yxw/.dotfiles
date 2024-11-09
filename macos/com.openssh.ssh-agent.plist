@@ -3,20 +3,16 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>addssh</string>
+    <string>com.openssh.ssh-agent</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>ssh-add --apple-load-keychain</string>
+        <string>/usr/bin/ssh-add --apple-load-keychain</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <false/>
-    <key>StandardErrorPath</key>
-    <string>/var/log/addssh/addssh.log</string>
-    <key>StandardOutPath</key>
-    <string>/var/log/addssh/addssh.log</string>
 </dict>
 </plist>

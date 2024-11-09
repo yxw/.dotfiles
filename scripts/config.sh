@@ -1,3 +1,10 @@
+
+post_install_packages() {
+   info "Installing fzf bindings"
+   # shellcheck disable=SC2046
+   $(brew --prefix)/opt/fzf/install
+}
+
 setup_github_ssh() {
 	if [ -z "${SSH_PASSPHRASE}" ]; then
 		echo "SSH_PASSPHRASE not set"
@@ -20,6 +27,7 @@ stow_dotfiles() {
 		".jq"
 		".profile*"
 		".vimrc"
+		".bashrc"
 		".zshrc"
 		".zshenv"
 		".zprofile"
